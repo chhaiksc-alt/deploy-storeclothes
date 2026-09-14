@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph:{
     title: 'About',
      description: "This page is mentioned about mission, vision, and teamwork of the whole platform performance.",
-    images:['M2_Thumbnail.png']
+    images:['public/products.jpg']
   }
 };
 
