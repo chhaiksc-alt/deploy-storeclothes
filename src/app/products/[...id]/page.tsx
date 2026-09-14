@@ -9,10 +9,8 @@ export default async function DetailProductPage({
 }) {
   const { id } = await params;
   return (
-    <div>
-      
+    <div>     
        <ProductDetailListComponent id={id}/> 
-      
     </div>
   );
 }

@@ -2,128 +2,237 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="absolute bottom-0 w-full text-white py-8 bg-gradient-to-t from-green-600 to-indigo-600">
-      <div className="container mx-auto flex flex-wrap justify-between">
-        {/* Colonne 1 */}
-        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 px-4 mb-4">
-          <h2 className="text-xl font-bold mb-4">À propos</h2>
-          <ul>
-            <li>
-              <a href="#" className="block hover:text-gray-300">
-                Qui sommes-nous?
-              </a>
-            </li>
-            <li>
-              <a href="#" className="block hover:text-gray-300">
-                Notre équipe
-              </a>
-            </li>
-            <li>
-              <a href="#" className="block hover:text-gray-300">
-                Nos valeurs
-              </a>
-            </li>
-          </ul>
-        </div>
-        {/* Colonne 2 */}
-        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 px-4 mb-4">
-          <h2 className="text-xl font-bold mb-4">Services</h2>
-          <ul>
-            <li>
-              <a href="#" className="block hover:text-gray-300">
-                Service 1
-              </a>
-            </li>
-            <li>
-              <a href="#" className="block hover:text-gray-300">
-                Service 2
-              </a>
-            </li>
-            <li>
-              <a href="#" className="block hover:text-gray-300">
-                Service 3
-              </a>
-            </li>
-          </ul>
-        </div>
-        {/* Colonne 3 */}
-        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 px-4 mb-4">
-          <h2 className="text-xl font-bold mb-4">Contact</h2>
-          <ul>
-            <li>
-              <a href="#" className="block hover:text-gray-300">
-                Contactez-nous
-              </a>
-            </li>
-            <li>
-              <a href="#" className="block hover:text-gray-300">
-                Support
-              </a>
-            </li>
-            <li>
-              <a href="#" className="block hover:text-gray-300">
-                FAQ
-              </a>
-            </li>
-          </ul>
-        </div>
-        {/* Colonne 4 */}
-        <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 px-4 mb-4">
-          <h2 className="text-xl font-bold mb-4">Réseaux sociaux</h2>
-          <ul>
-            <li className="flex align-items">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={16}
-                height={16}
-                fill="currentColor"
-                className="bi bi-facebook mt-1"
-                viewBox="0 0 16 16"
-              >
-                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
-              </svg>
-              <a href="#" className="block hover:text-gray-300 ml-2">
-                Facebook
-              </a>
-            </li>
-            <li className="flex align-items">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={16}
-                height={16}
-                fill="currentColor"
-                className="bi bi-twitter-x mt-1"
-                viewBox="0 0 16 16"
-              >
-                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
-              </svg>
-              <a href="#" className="block hover:text-gray-300 ml-2">
-                Twitter
-              </a>
-            </li>
-            <li className="flex align-items">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={16}
-                height={16}
-                fill="currentColor"
-                className="bi bi-instagram mt-1 "
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
-              </svg>
-              <a href="#" className="block hover:text-gray-300 ml-2">
-                Instagram
-              </a>
-            </li>
-          </ul>
-        </div>
+    <div className="bg-gray-100">
+  <div className="max-w-screen-lg py-10 px-4 sm:px-6 text-gray-800 sm:flex justify-between mx-auto">
+    <div className="p-5 sm:w-2/12 border-r">
+      <div className="text-sm uppercase text-indigo-600 font-bold">Menu</div>
+      <ul>
+        <li className="my-2">
+          <a className="hover:text-indigo-600" href="#">
+            Home
+          </a>
+        </li>
+        <li className="my-2">
+          <a className="hover:text-indigo-600" href="#">
+            Services
+          </a>
+        </li>
+        <li className="my-2">
+          <a className="hover:text-indigo-600" href="#">
+            Products
+          </a>
+        </li>
+        <li className="my-2">
+          <a className="hover:text-indigo-600" href="#">
+            Pricing
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div className="p-5 sm:w-7/12 border-r text-center">
+      <h3 className="font-bold text-xl text-indigo-600 mb-4">Componentity</h3>
+      <p className="text-gray-500 text-sm mb-10">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s.
+      </p>
+    </div>
+    <div className="p-5 sm:w-3/12">
+      <div className="text-sm uppercase text-indigo-600 font-bold">
+        Contact Us
       </div>
-      <hr className="w-4/5 mt-2 mx-auto" />
-      {/* Bas de page */}
-      <div className="text-center mt-8">
-        <p>© 2024 Pape Toulé Yade. Tous droits réservés.</p>
-      </div>
-    </footer>
+      <ul>
+        <li className="my-2">
+          <a className="hover:text-indigo-600" href="#">
+            XXX XXXX, Floor 4 San Francisco, CA
+          </a>
+        </li>
+        <li className="my-2">
+          <a className="hover:text-indigo-600" href="#">
+            contact@company.com
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div className="flex py-5 m-auto text-gray-800 text-sm flex-col items-center border-t max-w-screen-xl">
+    <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+      <a href="#" className="w-6 mx-1">
+        <svg
+          className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600"
+          width="100%"
+          height="100%"
+          viewBox="0 0 24 24"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          xmlSpace="preserve"
+         
+          style={{
+            fillRule: "evenodd",
+            clipRule: "evenodd",
+            strokeLinejoin: "round",
+            strokeMiterlimit: 2
+          }}
+        >
+          <path
+            id="Twitter"
+            d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
+            5.373,-12 12,-12c6.627,0 12,5.373 12,12Zm-6.465,-3.192c-0.379,0.168
+            -0.786,0.281 -1.213,0.333c0.436,-0.262 0.771,-0.676
+            0.929,-1.169c-0.408,0.242 -0.86,0.418 -1.341,0.513c-0.385,-0.411
+            -0.934,-0.667 -1.541,-0.667c-1.167,0 -2.112,0.945 -2.112,2.111c0,0.166
+            0.018,0.327 0.054,0.482c-1.754,-0.088 -3.31,-0.929
+            -4.352,-2.206c-0.181,0.311 -0.286,0.674 -0.286,1.061c0,0.733 0.373,1.379
+            0.94,1.757c-0.346,-0.01 -0.672,-0.106 -0.956,-0.264c-0.001,0.009
+            -0.001,0.018 -0.001,0.027c0,1.023 0.728,1.877 1.694,2.07c-0.177,0.049
+            -0.364,0.075 -0.556,0.075c-0.137,0 -0.269,-0.014 -0.397,-0.038c0.268,0.838
+            1.048,1.449 1.972,1.466c-0.723,0.566 -1.633,0.904 -2.622,0.904c-0.171,0
+            -0.339,-0.01 -0.504,-0.03c0.934,0.599 2.044,0.949 3.237,0.949c3.883,0
+            6.007,-3.217 6.007,-6.008c0,-0.091 -0.002,-0.183 -0.006,-0.273c0.413,-0.298
+            0.771,-0.67 1.054,-1.093Z"
+          />
+        </svg>
+      </a>
+      <a href="#" className="w-6 mx-1">
+        <svg
+          className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600"
+          width="100%"
+          height="100%"
+          viewBox="0 0 24 24"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          xmlSpace="preserve"
+          // xmlns:serif="http://www.serif.com/"
+          style={{
+            fillRule: "evenodd",
+            clipRule: "evenodd",
+            strokeLinejoin: "round",
+            strokeMiterlimit: 2
+          }}
+        >
+          <path
+            id="Facebook"
+            d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
+            5.373,-12 12,-12c6.627,0 12,5.373
+            12,12Zm-11.278,0l1.294,0l0.172,-1.617l-1.466,0l0.002,-0.808c0,-0.422
+            0.04,-0.648 0.646,-0.648l0.809,0l0,-1.616l-1.295,0c-1.555,0 -2.103,0.784
+            -2.103,2.102l0,0.97l-0.969,0l0,1.617l0.969,0l0,4.689l1.941,0l0,-4.689Z"
+          />
+        </svg>
+      </a>
+      <a href="#" className="w-6 mx-1">
+        <svg
+          className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600"
+          width="100%"
+          height="100%"
+          viewBox="0 0 24 24"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          xmlSpace="preserve"
+          
+          style={{
+            fillRule: "evenodd",
+            clipRule: "evenodd",
+            strokeLinejoin: "round",
+            strokeMiterlimit: 2
+          }}
+        >
+          <g id="Layer_1">
+            <circle id="Oval" cx={12} cy={12} r={12} />
+            <path
+              id="Shape"
+              d="M19.05,8.362c0,-0.062 0,-0.125 -0.063,-0.187l0,-0.063c-0.187,-0.562
+               -0.687,-0.937 -1.312,-0.937l0.125,0c0,0 -2.438,-0.375 -5.75,-0.375c-3.25,0
+               -5.75,0.375 -5.75,0.375l0.125,0c-0.625,0 -1.125,0.375
+               -1.313,0.937l0,0.063c0,0.062 0,0.125 -0.062,0.187c-0.063,0.625 -0.25,1.938
+               -0.25,3.438c0,1.5 0.187,2.812 0.25,3.437c0,0.063 0,0.125
+               0.062,0.188l0,0.062c0.188,0.563 0.688,0.938 1.313,0.938l-0.125,0c0,0
+               2.437,0.375 5.75,0.375c3.25,0 5.75,-0.375 5.75,-0.375l-0.125,0c0.625,0
+               1.125,-0.375 1.312,-0.938l0,-0.062c0,-0.063 0,-0.125
+               0.063,-0.188c0.062,-0.625 0.25,-1.937 0.25,-3.437c0,-1.5 -0.125,-2.813
+               -0.25,-3.438Zm-4.634,3.927l-3.201,2.315c-0.068,0.068 -0.137,0.068
+               -0.205,0.068c-0.068,0 -0.136,0 -0.204,-0.068c-0.136,-0.068 -0.204,-0.204
+               -0.204,-0.34l0,-4.631c0,-0.136 0.068,-0.273 0.204,-0.341c0.136,-0.068
+               0.272,-0.068 0.409,0l3.201,2.316c0.068,0.068 0.136,0.204
+               0.136,0.34c0.068,0.136 0,0.273 -0.136,0.341Z"
+              style={{ fill: "rgb(255, 255, 255)" }}
+            />
+          </g>
+        </svg>
+      </a>
+      <a href="#" className="w-6 mx-1">
+        <svg
+          className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600"
+          width="100%"
+          height="100%"
+          viewBox="0 0 24 24"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          xmlSpace="preserve"
+          
+          style={{
+            fillRule: "evenodd",
+            clipRule: "evenodd",
+            strokeLinejoin: "round",
+            strokeMiterlimit: 2
+          }}
+        >
+          <path
+            id="Shape"
+            d="M7.3,0.9c1.5,-0.6 3.1,-0.9 4.7,-0.9c1.6,0 3.2,0.3 4.7,0.9c1.5,0.6 2.8,1.5
+            3.8,2.6c1,1.1 1.9,2.3 2.6,3.8c0.7,1.5 0.9,3 0.9,4.7c0,1.7 -0.3,3.2
+            -0.9,4.7c-0.6,1.5 -1.5,2.8 -2.6,3.8c-1.1,1 -2.3,1.9 -3.8,2.6c-1.5,0.7
+            -3.1,0.9 -4.7,0.9c-1.6,0 -3.2,-0.3 -4.7,-0.9c-1.5,-0.6 -2.8,-1.5
+            -3.8,-2.6c-1,-1.1 -1.9,-2.3 -2.6,-3.8c-0.7,-1.5 -0.9,-3.1 -0.9,-4.7c0,-1.6
+            0.3,-3.2 0.9,-4.7c0.6,-1.5 1.5,-2.8 2.6,-3.8c1.1,-1 2.3,-1.9
+            3.8,-2.6Zm-0.3,7.1c0.6,0 1.1,-0.2 1.5,-0.5c0.4,-0.3 0.5,-0.8 0.5,-1.3c0,-0.5
+            -0.2,-0.9 -0.6,-1.2c-0.4,-0.3 -0.8,-0.5 -1.4,-0.5c-0.6,0 -1.1,0.2
+            -1.4,0.5c-0.3,0.3 -0.6,0.7 -0.6,1.2c0,0.5 0.2,0.9 0.5,1.3c0.3,0.4 0.9,0.5
+            1.5,0.5Zm1.5,10l0,-8.5l-3,0l0,8.5l3,0Zm11,0l0,-4.5c0,-1.4 -0.3,-2.5
+            -0.9,-3.3c-0.6,-0.8 -1.5,-1.2 -2.6,-1.2c-0.6,0 -1.1,0.2 -1.5,0.5c-0.4,0.3
+            -0.8,0.8 -0.9,1.3l-0.1,-1.3l-3,0l0.1,2l0,6.5l3,0l0,-4.5c0,-0.6 0.1,-1.1
+            0.4,-1.5c0.3,-0.4 0.6,-0.5 1.1,-0.5c0.5,0 0.9,0.2 1.1,0.5c0.2,0.3 0.4,0.8
+            0.4,1.5l0,4.5l2.9,0Z"
+          />
+        </svg>
+      </a>
+      <a href="#" className="w-6 mx-1">
+        <svg
+          className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600"
+          width="100%"
+          height="100%"
+          viewBox="0 0 24 24"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          xmlSpace="preserve"
+
+          style={{
+            fillRule: "evenodd",
+            clipRule: "evenodd",
+            strokeLinejoin: "round",
+            strokeMiterlimit: 2
+          }}
+        >
+          <path
+            id="Combined-Shape"
+            d="M12,24c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12c-6.627,0
+            -12,5.373 -12,12c0,6.627 5.373,12 12,12Zm6.591,-15.556l-0.722,0c-0.189,0
+            -0.681,0.208 -0.681,0.385l0,6.422c0,0.178 0.492,0.323
+            0.681,0.323l0.722,0l0,1.426l-4.675,0l0,-1.426l0.935,0l0,-6.655l-0.163,0l-2.251,8.081l-1.742,0l-2.222,-8.081l-0.168,0l0,6.655l0.935,0l0,1.426l-3.74,0l0,-1.426l0.519,0c0.203,0
+            0.416,-0.145 0.416,-0.323l0,-6.422c0,-0.177 -0.213,-0.385
+            -0.416,-0.385l-0.519,0l0,-1.426l4.847,0l1.583,5.704l0.042,0l1.598,-5.704l5.021,0l0,1.426Z"
+          />
+        </svg>
+      </a>
+    </div>
+    <div className="my-5">© Copyright 2023. All Rights Reserved.</div>
+  </div>
+</div>
+
   );
 }

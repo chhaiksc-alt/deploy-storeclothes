@@ -16,7 +16,7 @@ export default function ProductListComponent() {
     fecthData();
   }, []);
   return (
-    <div className="grid grid-cols-4 p-4 gap-8">
+    <div className="grid grid-cols-4 p-4 gap-8 ">
       {
       products.map((items, _ ) => {
         return <Link key={_} href={`/products/${items.id}`}>
