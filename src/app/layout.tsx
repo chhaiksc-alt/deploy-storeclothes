@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     default: 'LEGOBiz'
   },
     description: "LEGOBiz is the platform which review about the e-commerce products which supported with the store of clothes, trouser, for Cambodia.",
-    images:['public/products.jpg']
+    images:['products.jpg']
   }
 };
 
