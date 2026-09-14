@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph:{
     title: 'Products',
     description: "LEGOBiz Product Page will mentioned about listing popular product, arrival and modern clothes for men, women, and kids",
-    images:['products.jpg']
+    images:['thumnail.png']
   }
 };
 import ProductListComponent from "@/components/product/ProductListComponent";
